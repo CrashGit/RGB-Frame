@@ -18,7 +18,7 @@ frame_is_toggled_off := false               ; tracks state of toggled frame visi
 
 CreateFrame()   ; initialize frame gui
 
-F1::    ; toggle on/off when it may be distracting like watching full-screen videos
+F1::            ; toggle on/off when it may be distracting like watching full-screen videos
 {
     global frame_is_toggled_off := !frame_is_toggled_off
 
